@@ -17,9 +17,7 @@ while(a != myNumber) {
     a = Number(prompt("Enter a number"))
 
     if (Number.isNaN(a)) {
-        console.log("Enter a NUMBER!!!!!!")
-        console.log("NUMBER!!!!!")
-        console.log("STUPID")
+        console.log("Input is supposed to be a NUMBER")
     }
     if (a === myNumber) {
         console.log("Correct" , "On the " , pokus , " try")
